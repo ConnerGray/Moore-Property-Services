@@ -3,10 +3,26 @@
     .nav-links {
         width: 60%;
     }
+
+    .numbers-h2 {
+        font-size: 1.5rem;
+    }
+
+    .newsletter-container {
+        justify-content: space-between;
+    }
+
+    .newsletter-h2 {
+        font-size: 2rem;
+    }
+
+    .col-1 {
+        margin-right: 50px;
+    }
 }
 
 /* Tablet */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     /* container */
     .container {
         width: 90%;
@@ -81,16 +97,117 @@
     .hero {
         height: 30vh;
     }
+
+    .wwd-services-container {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 40px;
+    }
+
+    .family-img img {
+        width: 350px;
+    }
+
+    .family-content p {
+        width: 90%;
+    }
+
+    .work-img img {
+        width: 350px;
+    }
+
+    .work-content p {
+        width: 90%;
+    }
 }
 
 /* Phone */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 568px) {
     /* Hero */
     .hero-h1 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
-    hero-p {
-        font-size: 1;
+    .hero-p {
+        font-size: 1rem;
     }
+
+    .wwd-services-container {
+        grid-template-columns: 1fr;
+    }
+
+    .family-container {
+        flex-direction: column;
+    }
+
+    .family-content {
+        width: 100%;
+    }
+
+    .family-img {
+        width: 100%;
+        margin-top: 30px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .mySlides img {
+        height: auto;
+        width: 100%;
+    }
+
+    .prev, .next {
+        display: none;
+    }
+
+    .numbers-container {
+        height: auto;
+        padding: 20px 0;
+        grid-template-columns: 1fr;
+    }
+
+    .clients {
+        padding: 20px 0;
+    }
+
+    .work-container {
+        flex-direction: column;
+    }
+
+    .work-content {
+        width: 100%;
+    }
+
+    .work-img {
+        margin-top: 30px; 
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .newsletter-container {
+        height: auto;
+        padding: 20px 0;
+        flex-direction: column;
+    }
+
+    .newsletter-button-container {
+        margin-top: 20px;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
+
+    .col-2, .col-3, .col-4 {
+        margin-top: 30px;
+    }
+
+    .footer-ul, .footer-contact-container {
+        margin-top: 20px;
+    }
+    
 }
