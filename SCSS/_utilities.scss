@@ -11,13 +11,18 @@ $dark-green: #567C20;
     padding: 0;
 }
 
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
 body, button {
     font-family: 'Oswald', sans-serif;
 }
 
 html, body {
     scroll-behavior: smooth;
-    overflow: hidden;
+    overflow-x: hidden;
     max-width: 100%;
 }
 
