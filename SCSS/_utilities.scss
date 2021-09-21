@@ -1,0 +1,47 @@
+/* Colors */
+$dark: #252525;
+$white: #FFFFFF;
+$gray: #F8F8F8;
+$green: #8CB84D;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, button {
+    font-family: 'Oswald', sans-serif;
+}
+
+html, body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+h1 {color: $white; font-size: 3rem; font-weight: 500;}
+h2 {color: $dark; font-size: 2.3rem; font-weight: 400;}
+h3 {color: $white; font-size: 1rem;}
+
+.green {
+    color: $green;
+}
+
+a {
+    text-decoration: none;
+    color: $dark;
+}
+
+a:hover {
+    color: $green;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}

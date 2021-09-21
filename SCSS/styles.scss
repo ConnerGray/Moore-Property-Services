@@ -1,0 +1,143 @@
+@import "utilities";
+@import "buttons";
+
+/* HOMEPAGE STYLING */
+
+/* Quick Info Section */
+.quick-info {
+    background-color: $dark;
+    color: $white;
+    padding: 10px 0 10px 0;
+    height: auto;
+}
+
+.info-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hours, .location, .phone {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin: 0 10px 0 10px;
+}
+
+.info-text {
+    margin-left: 10px;
+}
+
+/* Header / NAV Section */
+.header {
+    margin: 20px 0 0 0; 
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.nav-logo {
+    flex-grow: 1;
+    display: block;
+}
+
+.nav-logo img {
+    height: auto;
+    width: 125px;
+}
+
+.nav-links {
+    font-size: 1.2rem;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+}
+
+.burger {
+    display: none;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: $dark;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+/* Hero Section */
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/main-header-img.jpg");
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+}
+
+.hero-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-p {
+    margin: 0px 0 20px 0;
+    color: $white;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.btn-wm {
+    margin-right: 20px;
+}
+
+/* What We Do Section */
+.wwd-section {
+    margin: 50px 0;
+}
+
+.wwd-headings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+        font-size: 1.3rem;
+        font-weight: 300;
+        text-align: center;
+    }
+}
+
+.wwd-services-container {
+    margin: 3.5rem 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.wwd-service-card {
+    text-align: center;
+}
+
+.wwd-service-icon {
+    width: 60px;
+}
+
+.wwd-service-h3 {
+    color: $dark;
+    margin: 10px 0 15px 0;
+}
+
+/* Family Section */
+
+
+/* MUST BE AT BOTTOM */
+@import "mediaqueries";
