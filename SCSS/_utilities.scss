@@ -11,11 +11,6 @@ $dark-green: #567C20;
     padding: 0;
 }
 
-html, body {
-    overflow-x: hidden;
-    width: 100%;
-}
-
 body, button {
     font-family: 'Oswald', sans-serif;
 }
@@ -23,7 +18,8 @@ body, button {
 html, body {
     scroll-behavior: smooth;
     overflow-x: hidden;
-    max-width: 100%;
+    max-width: 100%; 
+    position: relative;
 }
 
 h1 {color: $white; font-size: 3rem; font-weight: 500;}
