@@ -15,7 +15,80 @@
     }
 }
 
+/* About Section */
+.about {
+    margin: 50px 0 100px 0;
+}
 
+.about-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+/* Choose Us Section */
+.chooseUs-section {
+    margin: 100px 0;
+}
+
+.chooseUs-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.chooseUs-headings {
+    p {
+        margin-top: 20px;
+    }
+}
+
+.reason {
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+
+    h3 {
+        color: $dark;
+    }
+}
+
+.reason-content {
+    margin-left: 20px;
+}
+
+/* Meet the owner section */
+.owner {
+    margin: 100px 0;
+}
+
+.owner-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.owner-img img {
+    height: auto;
+    width: 400px;
+}
+
+.owner-content {
+    display: flex;
+    flex-direction: column;
+
+    p {
+        margin-top: 20px;
+    }
+}
 
 /* Media Queries */
 /* Tablet */

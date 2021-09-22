@@ -422,7 +422,7 @@ footer {
 }
 
 .copyright-container {
-    height: 5vh;
+    height: 6vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -439,6 +439,7 @@ footer {
         font-weight: 200;
     }
 }
+
 
 /* MUST BE AT BOTTOM */
 @import "mediaqueries";
