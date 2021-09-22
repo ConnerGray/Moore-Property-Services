@@ -399,7 +399,7 @@ footer {
 }
 
 .footer-ul, .footer-contact-container {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .footer-phone, .email, .facebook {
@@ -422,7 +422,7 @@ footer {
 }
 
 .copyright-container {
-    height: 8vh;
+    height: 5vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -430,12 +430,12 @@ footer {
     align-items: center;
 
     h4 {
-        font-size: 1rem;
+        font-size: 0.8rem;
         font-weight: 400; 
     }
 
     p {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
         font-weight: 200;
     }
 }
