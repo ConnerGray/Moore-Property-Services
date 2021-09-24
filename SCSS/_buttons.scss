@@ -13,6 +13,11 @@
     color: $white;
     background-color: transparent;
     border: 2px solid $white;
+    width: 115px;
+    font-size: 1rem;
+    padding: 9px 18px;
+    border-radius: 7px;
+    cursor: pointer;
 }
 
 .apply-btn {
@@ -20,6 +25,13 @@
 }
 
 /* Hover */
+/*main btn */
 .btn:hover {
-    
+    background-color: $dark-green;
+}
+
+/* Secondary */
+.btn-secondary:hover {
+    color: $green;
+    border: 2px solid $green;
 }
