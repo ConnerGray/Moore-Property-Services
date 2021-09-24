@@ -20,6 +20,7 @@
 }
 
 .form-section-wrapper {
+    width: 100%;
     display: grid;
     grid-template-columns: 2fr .5fr;
     grid-template-rows: 1fr;
@@ -51,7 +52,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 10px 0;
-    gap: 20px;
+    gap: 10px;
 }
 
 .contact-message {
@@ -103,14 +104,25 @@
 /* Media Queries */
 /* Small Desktop */
 @media screen and (max-width: 1024px) {
+    .contact-hero {
+        height: 20vh;
+    }
+
     .form-section-wrapper {
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 50px;
+        grid-row-gap: 50px;
     }
+
+    .info-section {
+        height: auto;
+    }    
 }
 
 /* Phone */
 @media screen and (max-width: 580px) {
-
+    .contact-name, .contact-info {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 10px 0;
+    }
 }
