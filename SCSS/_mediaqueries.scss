@@ -6,7 +6,11 @@
 }
 
 /* Small Desktop */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+
     .nav-links {
         width: 60%;
     }
