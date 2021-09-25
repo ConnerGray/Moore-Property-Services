@@ -1,3 +1,12 @@
+//Accordion
+const faqs = document.querySelectorAll(".faq");
+
+faqs.forEach((faq) => {
+  faq.addEventListener("click", () => {
+    faq.classList.toggle("active");
+  });
+});
+
 // MOBILE NAV
 const navSlide = () => {
     const burger = document.querySelector('.burger');
@@ -67,3 +76,4 @@ $('.count').each(function () {
       }
   });
 });
+
