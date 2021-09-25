@@ -134,6 +134,9 @@
 /* Phone */
 @media screen and (max-width: 580px) {
     /* Hero */
+    .hero {
+        background-position: right bottom;
+    }
     .hero-h1 {
         font-size: 1.4rem;
     }

@@ -1,5 +1,6 @@
+/* Contact Page */
 /* Hero Section */
-.contact-hero {
+.contact-hero, .quote-hero, .apply-hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/secondary-header-img.jpg");
     height: 30vh;
     background-position: center;
@@ -42,7 +43,8 @@
 
 /* Form Styling */
 .text-field {
-    padding: 15px 5px;
+    height: 5vh;
+    padding: 15px 10px;
     background-color: #f1f1f1;
     border:none;
     border-radius: 5px;
@@ -98,6 +100,37 @@
     }
 }
 
+/* Quote Page */
+.quote {
+    margin: 50px 0;
+}
+
+.quote-headings {
+    margin-bottom: 30px;
+
+    p {
+        margin-top: 10px;
+    }
+}
+
+/* Apply Page */
+.apply {
+    margin: 50px 0;
+}
+
+.apply-headings {
+    margin-bottom: 30px;
+
+    p {
+        margin-top: 10px;
+    }
+}
+
+.checkbox-h3 {
+    color: $dark;
+    margin-bottom: 10px;
+}
+
 /* Media Queries */
 /* Small Desktop */
 @media screen and (max-width: 1024px) {
@@ -113,6 +146,14 @@
     .info-section {
         height: auto;
     }    
+
+    .quote-hero {
+        height: 20vh;
+    }
+
+    .apply-hero {
+        height: 20vh;
+    }
 }
 
 /* Phone */

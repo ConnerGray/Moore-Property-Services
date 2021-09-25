@@ -2,10 +2,9 @@
 @import "buttons";
 @import "about";
 @import "services";
-@import "contact";
-@import "quote";
+@import "contact-forms";
 @import "faq";
-@import "apply";
+
 
 /* HOMEPAGE STYLING */
 
@@ -265,6 +264,8 @@ nav {
 .numbers {
     margin: 0px 0;
     background-color: $green;
+    background-color: #8cb84d;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/grass-bg.jpg");
     
 }
 
@@ -283,6 +284,10 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.numbers-h2 {
+    text-shadow: 1px 1px $dark;
 }
 
 .numbers-h2, .numbers-p {

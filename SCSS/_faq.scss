@@ -23,12 +23,17 @@
     text-align: center;
 }
 
-.faq {
+.faq-wrapper {
     margin-top: 2rem;
-    cursor: pointer;
-    border: solid 2px #d3d3d3;
+    border: solid 2px #e0e0e0;
+    border-bottom: none;
     border-radius: 5px;
-    padding: 1rem;
+}
+
+.faq {
+    cursor: pointer;
+    border-bottom: solid 2px #d3d3d3;
+    padding: 1.5rem;
     
     h3 {
         color: $dark;
@@ -45,7 +50,7 @@
 .answer {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 1.4s ease;
+    transition: max-height 1s ease;
 }
 
 .answer p{
@@ -78,4 +83,8 @@
     }
 }
 
-
+@media screen and (max-width: 580px) { 
+    .FAQ-hero {
+        height: 20vh;
+    }
+}
