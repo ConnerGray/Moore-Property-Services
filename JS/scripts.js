@@ -63,17 +63,3 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active-dot";
 }
-
-// Number Counter
-$('.count').each(function () {
-  $(this).prop('Counter',0).animate({
-      Counter: $(this).text()
-  }, {
-      duration: 4000,
-      easing: 'swing',
-      step: function (now) {
-          $(this).text(Math.ceil(now));
-      }
-  });
-});
-
