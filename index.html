@@ -85,7 +85,15 @@
     <!-- Hero Section -->
     <section class="hero">
             <div class="hero-container">
-                <img src="img/main-header-img.webp" alt="Hero Image" class="hero-image" loading="lazy" height="400px" width="100%">
+                <img 
+                    srcset="img/main-header-img-mobile.jpg 480w,
+                    img/main-header-img.jpg 800w"
+                    sizes="(max-width: 600px) 480px,
+                    800px"src="img/main-header-img.jpg" 
+                    alt="Hero Image" 
+                    class="hero-image" 
+                    height="400px" 
+                    width="100%">
                 <h1 class="hero-h1">Property Service Management Made Easy</h1>
                 <p class="hero-p">All your property service needs.</p>
 
